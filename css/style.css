@@ -53,6 +53,7 @@
   .section2{
     width: 90%;
     margin: 0 auto;
+    padding-bottom: 112px;
   }
 
   .section2_title{
@@ -78,3 +79,32 @@
     height: 271px;
     margin-bottom: 28px;
   }
+
+  footer{
+    width: 100%;
+    padding: 52px 73px 78px 82px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer_title{
+    font-family: 'BPG Glaho';font-style: normal;
+    width: 98px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 47px;
+  }
+
+  .footer_contact_info{
+    color: #413D3D;
+    width: 237px;
+    font-family: 'BPG Glaho';font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+
+
