@@ -3,6 +3,7 @@
     width: 100%;
     margin: 0 auto;
     background-color: #F4EEEE;
+    padding-top: 146px;
   }
 
   header{
@@ -16,7 +17,9 @@
     border-radius: 0px 0px 50px 50px ;
     position: fixed;
     padding: 45.88px 80px 58px 80px;
-    transform: translateX(0);
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 10;
   }
 
@@ -29,7 +32,7 @@
     width: 90%;
     height: 720px;
     position: relative;
-    margin: 0 auto;
+    margin: 90px auto 206px auto;
   }
 
   .section1_photo{
@@ -52,22 +55,21 @@
 
   .section2{
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto 112px auto;
     padding-bottom: 112px;
   }
 
   .section2_title{
     font-family: "BPG Glaho", sans-serif;;
-    width: 785px;
     color: #125806;
     font-size: 40px;
     font-weight: 700;
-    margin-top: 206px;
     margin-bottom: 74px;
-    display: flex;
   }
 
   .cards{
+    width: 100%;
+    height: 569px;
     display: flex;  
     flex-wrap: wrap;  
     justify-content: space-between;
@@ -75,9 +77,14 @@
   }
 
   .card{
-    width: 407px;
+    width: 32%;
     height: 271px;
     margin-bottom: 28px;
+  }
+
+  .card img{
+    width: 100%;
+    height: 100%;
   }
 
   footer{
@@ -86,21 +93,19 @@
     background: #FFFFFF;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
   }
 
   .footer_title{
-    font-family: 'BPG Glaho';font-style: normal;
-    width: 98px;
+    font-family: 'BPG Glaho';
     font-weight: 700;
     font-size: 20px;
-    color: #000000;
     margin-bottom: 47px;
   }
 
   .footer_contact_info{
     color: #413D3D;
-    width: 237px;
-    font-family: 'BPG Glaho';font-style: normal;
+    font-family: 'BPG Glaho';
     font-weight: 700;
     font-size: 16px;
     line-height: 21px;
